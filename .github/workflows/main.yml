@@ -20,3 +20,6 @@ node-version: '18'
 
 - name: Install Dependencies
 run: npm install
+
+- name: Run Jest tests
+run: npm test
